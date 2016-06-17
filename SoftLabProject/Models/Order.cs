@@ -10,5 +10,10 @@ namespace SoftLabProject.Models
         public int ID;
         public DateTime OrderDate;
         public int CustomerID;
+        public IList<OrderItem> OrderDetails;
+    }
+    public class OrderItem
+    {
+
     }
 }
